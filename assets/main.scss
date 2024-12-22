@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$content-width: 100%;
+@import "minima";
+
+// Use media queries like this:
+
+//@include media-query($on-palm) {
+.wrapper {
+  max-width: -webkit-calc(900px - (30px * 2));
+  max-width: calc(900px - 30px * 2);
+    padding-right: calc($spacing-unit / 2);
+    padding-left: calc($spacing-unit / 2);
+    margin-right: auto;
+    margin-left: auto;
+    }
+//}
+
